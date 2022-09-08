@@ -45,7 +45,7 @@
 
 .known-emoji {
   font-size: 1.5rem;
-  text-shadow: 5px 5px 10px;
+  /* text-shadow: 5px 5px 10px; */
 }
 
 .emoList {
