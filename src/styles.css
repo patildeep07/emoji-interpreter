@@ -1,14 +1,61 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  color: #3a3a3a;
+}
+
+.title {
+  font-size: 3rem;
+  background-color: rebeccapurple;
+  margin: 0;
+  padding: 10px;
 }
 
 .inputText {
   padding: 1rem;
   width: 80%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border-color: rebeccapurple;
+  border-width: 4px;
+  box-shadow: 5px 5px 10px;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.output-div {
+  font-size: 1.5rem;
+  border: solid;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: rebeccapurple;
+  border-width: 4px;
+  box-shadow: 5px 5px 10px;
+}
+
+.known-emoji {
+  font-size: 1.5rem;
+  text-shadow: 5px 5px 10px;
 }
 
 .emoList {
   font-size: 2rem;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+ul {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }

@@ -6,7 +6,20 @@ var emojiList = {
   "🤩": "Starstuck Face",
   "🥲": "Smiling Face with Tear",
   "😛": "Face with Tongue",
-  "😠": "Angry Face"
+  "😠": "Angry Face",
+  "✨": "Sparkles",
+  "❤️": "Red Heart",
+  "🔥": "Fire",
+  "✔️": "Check Mark",
+  "🎉": "Party Popper",
+  "😍": "Smiling Face with Heart-Eyes",
+  "😉": "Winking Face",
+  "👀": "Eyes",
+  "🥰": "Smiling Face with Hearts",
+  "🥳": "Partying Face",
+  "🥺": "Pleading Face",
+  "😭": "Loudly Crying Face",
+  "🤔": "Thinking Face"
 };
 
 var emojiArray = Object.keys(emojiList);
@@ -31,10 +44,18 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1> Emoji Interpreter </h1>
-      <input onChange={onChangeHandler} className="inputText" />
-      <p> {meaning} </p>
-      <p> Emojis we Know </p>
+      <h1 className="title"> Emoji Interpreter </h1>
+      <input
+        onChange={onChangeHandler}
+        className="inputText"
+        placeholder="Enter a Emoji Here.!!!"
+      />
+      <p className="output-div"> {meaning} </p>
+      <p className="known-emoji">
+        {" "}
+        Emojis we Know are 👇. You can select any one of them to know their
+        meaning.
+      </p>
       <ul>
         {emojiArray.map(function (item) {
           return (
