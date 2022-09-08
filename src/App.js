@@ -50,6 +50,7 @@ export default function App() {
         className="inputText"
         placeholder="Enter a Emoji Here.!!!"
       />
+      <p className="known-emoji">Emoji's Meaning will be show here. 👇</p>
       <p className="output-div"> {meaning} </p>
       <p className="known-emoji">
         {" "}
